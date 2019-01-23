@@ -1,0 +1,14 @@
+
+upstream my_ecommerce_app {
+{% for host in groups['app_nodes'] %}
+    server {{host}}:8080;
+{% endfor %}
+}
+
+server {
+    listen 8095;
+
+    location / {
+            proxy_pass http://my_ecommerce_app;
+    }
+}

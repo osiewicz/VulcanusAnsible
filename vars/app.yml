@@ -1,0 +1,4 @@
+---
+  jar_location: ~/environment/200860/vulcanus/Vulcanus/target/Vulcanus-0.0.1-SNAPSHOT.jar
+  app_location: /opt/carrental/vulcanus.jar
+  app_user: vulcanuser
