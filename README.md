@@ -1,5 +1,5 @@
 # Vulcanus ansible setup
-Based on [Vulcanus] (https://github.com/FoioK/Vulcanus)
+Based on [Vulcanus](https://github.com/FoioK/Vulcanus)
 
 ## Features:
 * Automatic Let's Encrypt certificate
